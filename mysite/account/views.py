@@ -22,3 +22,5 @@ def user_login(request):
     if request.method == "GET":
         login_form = LoginForm()
         return render(request, "account/login.html", {"form": login_form})
+
+# test 
