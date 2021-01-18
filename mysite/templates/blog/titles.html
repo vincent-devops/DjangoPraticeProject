@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load staticfiles %}
 
 {% block title %}blog titiles {% endblock %}
 
@@ -16,8 +17,8 @@
     </div>
     <div class="col-xs-6 col-md-4">
         <h2>广告</h2>
-        <p>广告词xxx</p>
-        <img width="200px" src="https://raw.githubsercontent.com/qiwsir/DjangoPraticeProject/master/python-book2.png">
+        <p>这是一条广告哦</p>
+        <img width="200px" src="{% static 'images/book.jpg' %}">
     </div>
 </div>
 {% endblock %}
