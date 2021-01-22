@@ -21,3 +21,6 @@ urlpatterns = [
     path('blog/', include('blog.urls', namespace='blog')),
     path('account/', include('account.urls', namespace='account')),
 ]
+
+import celery
+from celery import shared_task
