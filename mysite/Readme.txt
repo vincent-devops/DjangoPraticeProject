@@ -4,4 +4,5 @@ admin
 启动服务
 ln -s /root/devops/DjangoPraticeProject/mysite /root/mysite
 cd /root/mysite
-py manage.py runserver 0.0.0.0:80
+
+python manage.py runserver 0.0.0.0:80
